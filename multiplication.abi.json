@@ -11,36 +11,27 @@
 			]
 		},
 		{
-			"name": "renderHelloWorld",
+			"name": "showMultiplication",
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"value0","type":"string"}
+				{"name":"value0","type":"int8"}
 			]
 		},
 		{
-			"name": "touch",
+			"name": "multiply",
 			"inputs": [
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "sendValue",
-			"inputs": [
-				{"name":"dest","type":"address"},
-				{"name":"amount","type":"uint128"},
-				{"name":"bounce","type":"bool"}
+				{"name":"value","type":"int8"}
 			],
 			"outputs": [
 			]
 		},
 		{
-			"name": "timestamp",
+			"name": "multiplication",
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"timestamp","type":"uint32"}
+				{"name":"multiplication","type":"int8"}
 			]
 		}
 	],
@@ -52,6 +43,6 @@
 		{"name":"_pubkey","type":"uint256"},
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
-		{"name":"timestamp","type":"uint32"}
+		{"name":"multiplication","type":"int8"}
 	]
 }
