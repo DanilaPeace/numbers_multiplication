@@ -11,11 +11,6 @@ contract multiplication {
         tvm.accept();
     }
 
-    function showMultiplication() public view returns (int8) {
-        // This method shows a result of multiply
-        return multiplication;
-    }
-
     modifier multiplyModifief{
         require(msg.pubkey() == tvm.pubkey(), 102);
 		tvm.accept();
